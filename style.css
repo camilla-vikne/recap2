@@ -1,0 +1,34 @@
+main {
+  height: 100svh;
+  width: 100svw;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent {
+  background-color: orange;
+  height: 50svh;
+  width: 50svw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.child {
+  background-color: hotpink;
+  height: 15svh;
+  width: 20svw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.grandchild {
+  height: 5svh;
+  width: 10svw;
+  background-color: aqua;
+}
